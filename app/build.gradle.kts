@@ -45,6 +45,7 @@ android {
 dependencies {
     implementation ("com.airbnb.android:showkase:1.0.5")
     ksp ("com.airbnb.android:showkase-processor:1.0.5")
+    implementation(project(":uikit"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
