@@ -45,7 +45,7 @@ fun ChipActiveButton(
         colors = ButtonDefaults.buttonColors(
             containerColor = Accent
         ),
-        contentPadding = PaddingValues(0.dp)
+        contentPadding = PaddingValues(horizontal = 20.dp)
     ) {
         Text(text = text,
             style = Theme.typography.title3Semibold,
