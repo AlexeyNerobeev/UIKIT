@@ -39,7 +39,7 @@ fun SmallInactiveButton(
         colors = ButtonDefaults.buttonColors(
             containerColor = AccentInactive
         ),
-        contentPadding = PaddingValues(0.dp)
+        contentPadding = PaddingValues(horizontal = 16.dp)
     ) {
         Text(text = text,
             style = Theme.typography.captionSemibold,

@@ -41,7 +41,7 @@ fun SmallBorderButton(
         colors = ButtonDefaults.buttonColors(
             containerColor = White
         ),
-        contentPadding = PaddingValues(0.dp)
+        contentPadding = PaddingValues(horizontal = 16.dp)
     ) {
         Text(text = text,
             style = Theme.typography.captionSemibold,
