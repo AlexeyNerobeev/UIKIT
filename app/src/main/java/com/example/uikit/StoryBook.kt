@@ -122,7 +122,7 @@ fun showBigBorderButton(){
 fun showSmallActiveButton(){
     SmallActiveButton(
         onCLick = {},
-        text = "dgfd"
+        text = "dgfdklhjhjjkklmkll;k';k;l'kh"
     )
 }
 
@@ -149,7 +149,7 @@ fun showSmallBorderButton(){
 fun showChipActiveButton(){
     ChipActiveButton(
         onCLick = {},
-        text = "dklfd"
+        text = "Популярные"
     )
 }
 

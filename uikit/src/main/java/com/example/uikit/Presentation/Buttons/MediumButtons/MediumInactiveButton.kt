@@ -1,6 +1,7 @@
 package com.example.uikit.Presentation.Buttons.MediumButtons
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -37,7 +38,8 @@ fun MediumInactiveButton(
             ),
         colors = ButtonDefaults.buttonColors(
             containerColor = InputBG
-        )
+        ),
+        contentPadding = PaddingValues(0.dp)
     ) {
         Text(text = text,
             style = Theme.typography.textRegular,

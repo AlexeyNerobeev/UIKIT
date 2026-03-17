@@ -1,7 +1,10 @@
 package com.example.uikit.Presentation.Buttons.Small
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -25,7 +28,8 @@ fun SmallInactiveButton(
     Button(
         onClick = onCLick,
         modifier = modifier
-            .size(96.dp, 40.dp)
+            .widthIn(96.dp)
+            .height(40.dp)
             .clip(
                 shape = RoundedCornerShape(10.dp)
             )
@@ -34,7 +38,8 @@ fun SmallInactiveButton(
             ),
         colors = ButtonDefaults.buttonColors(
             containerColor = AccentInactive
-        )
+        ),
+        contentPadding = PaddingValues(0.dp)
     ) {
         Text(text = text,
             style = Theme.typography.captionSemibold,
