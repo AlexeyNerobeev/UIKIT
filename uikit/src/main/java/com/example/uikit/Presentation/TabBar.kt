@@ -83,7 +83,7 @@ fun TabBar(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
                         .clickable{
-                            it.onCLick
+                            it.onCLick()
                         }
                 ) {
                     Icon(painter = painterResource(it.icon),
