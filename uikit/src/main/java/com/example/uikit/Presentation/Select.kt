@@ -55,7 +55,7 @@ fun Select(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Box(
-                modifier = modifier
+                modifier = Modifier
                     .fillMaxWidth()
                     .height(48.dp)
                     .background(
